@@ -22,7 +22,7 @@ const grid = document.getElementById('grid');
  
       box.addEventListener('mouseleave', () => {
         box.style.transition = 'background 1.5s ease';
-        box.style.background = '#222';
+        box.style.background = '#1d1d1d';
       });
 		
       grid.appendChild(box);

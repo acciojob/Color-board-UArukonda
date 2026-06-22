@@ -20,7 +20,7 @@
  
     .square {
       aspect-ratio: 1;
-      background: #222;
+      background: #1d1d1d;
       border-radius: 2px;
       transition: background 1.5s ease;
     }
