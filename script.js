@@ -13,7 +13,7 @@ function randomColor() {
 const grid = document.getElementById('grid');
     for (let i = 0; i < 800; i++) {
       const box = document.createElement('div');
-      box.className = 'box';
+      box.className = 'square';
 
 		box.addEventListener('mouseenter', () => {
         box.style.transition = 'background 0.05s ease';
